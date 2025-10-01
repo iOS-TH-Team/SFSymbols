@@ -3080,7 +3080,7 @@ public extension SFSymbols {
 
 
 @available(iOS 13.1, macOS 11, tvOS 13, watchOS 6.1, *)
-extension SFSymbols {
+public extension SFSymbols {
     /// 􀞸 SF Symbol 'arrow.uturn.left.circle.badge.ellipsis'
     static let arrowUturnLeftCircleBadgeEllipsis = SFSymbols(symbol: "arrow.uturn.left.circle.badge.ellipsis")
     /// 􀞖 SF Symbol 'aspectratio'
@@ -3117,7 +3117,7 @@ extension SFSymbols {
 
 
 @available(iOS 14, macOS 11, tvOS 14, watchOS 7, *)
-extension SFSymbols {
+public extension SFSymbols {
     /// 􀦽 SF Symbol '4k.tv'
     static let tv4k = SFSymbols(symbol: "4k.tv")
     /// 􀦾 SF Symbol '4k.tv.fill'
@@ -4876,7 +4876,7 @@ extension SFSymbols {
 
 
 @available(iOS 14.2, macOS 11, tvOS 14.2, watchOS 7.1, *)
-extension SFSymbols {
+public extension SFSymbols {
     /// 􀵀 SF Symbol 'aqi.high'
     static let aqiHigh = SFSymbols(symbol: "aqi.high")
     /// 􀴾 SF Symbol 'aqi.low'
@@ -4957,7 +4957,7 @@ extension SFSymbols {
 
 
 @available(iOS 14.5, macOS 11.3, tvOS 14.5, watchOS 7.4, *)
-extension SFSymbols {
+public extension SFSymbols {
     /// 􀺹 SF Symbol 'airpodsmax'   © Apple (use only for Apple's AirPods Max)
     static let airpodsmax = SFSymbols(symbol: "airpodsmax")
     /// 􀸎 SF Symbol 'applewatch.side.right'   © Apple (use only for Apple Watch)
@@ -4990,7 +4990,7 @@ extension SFSymbols {
 
 
 @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *)
-extension SFSymbols {
+public extension SFSymbols {
     /// 􁂷 SF Symbol '123.rectangle'
     static let rectangle123 = SFSymbols(symbol: "123.rectangle")
     /// 􁂸 SF Symbol '123.rectangle.fill'
@@ -6555,7 +6555,7 @@ extension SFSymbols {
 
 
 @available(iOS 15.1, macOS 12.0, tvOS 15.1, watchOS 8.1, *)
-extension SFSymbols {
+public extension SFSymbols {
     /// 􁉘 SF Symbol 'bolt.ring.closed'
     static let boltRingClosed = SFSymbols(symbol: "bolt.ring.closed")
     /// 􁋂 SF Symbol 'platter.filled.bottom.and.arrow.down.iphone'
@@ -6586,7 +6586,7 @@ extension SFSymbols {
 
 
 @available(iOS 15.2, macOS 12.1, tvOS 15.2, watchOS 8.3, *)
-extension SFSymbols {
+public extension SFSymbols {
     /// 􁄣 SF Symbol 'airpod.gen3.left'   © Apple (use only for Apple's AirPods)
     static let airpodGen3Left = SFSymbols(symbol: "airpod.gen3.left")
     /// 􁄢 SF Symbol 'airpod.gen3.right'   © Apple (use only for Apple's AirPods)
@@ -6619,7 +6619,7 @@ extension SFSymbols {
 
 
 @available(iOS 15.4, macOS 12.3, tvOS 15.4, watchOS 8.5, *)
-extension SFSymbols {
+public extension SFSymbols {
     /// 􁂂 SF Symbol 'camera.macro'
     static let cameraMacro = SFSymbols(symbol: "camera.macro")
     /// 􁂃 SF Symbol 'camera.macro.circle'
@@ -6638,7 +6638,7 @@ extension SFSymbols {
 
 
 @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, *)
-extension SFSymbols {
+public extension SFSymbols {
     /// 􁀴 SF Symbol 'abs.brakesignal'
     static let absBrakesignal = SFSymbols(symbol: "abs.brakesignal")
     /// 􁓭 SF Symbol 'air.conditioner.horizontal'
@@ -8413,7 +8413,7 @@ extension SFSymbols {
 
 
 @available(iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1, *)
-extension SFSymbols {
+public extension SFSymbols {
     /// 􁟄 SF Symbol '1.brakesignal'
     static let brakeSignal1 = SFSymbols(symbol: "1.brakesignal")
     /// 􁟐 SF Symbol '1.lane'
