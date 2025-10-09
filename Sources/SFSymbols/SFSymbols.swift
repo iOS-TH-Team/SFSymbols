@@ -42,6 +42,10 @@ public extension SwiftUI.Label where Title == Text, Icon == Image {
     init(_ titleResource: LocalizedStringResource, symbol: SFSymbols) {
         self.init(titleResource, systemImage: symbol.symbol)
     }
+    
+    init<S>(_ title: S, symbol: SFSymbols) where S : StringProtocol {
+        self.init(title, systemImage: symbol.symbol)
+    }
 }
 #endif
 #if canImport(AppKit)
