@@ -33,6 +33,16 @@ public extension SwiftUI.Image {
         self.init(systemName: symbol.symbol)
     }
 }
+@available(iOS 16.0, *)
+public extension SwiftUI.Label where Title == Text, Icon == Image {
+    init(_ titleKey: LocalizedStringKey, symbol: SFSymbols) {
+        self.init(titleKey, systemImage: symbol.symbol)
+    }
+    
+    init(_ titleResource: LocalizedStringResource, symbol: SFSymbols) {
+        self.init(titleResource, systemImage: symbol.symbol)
+    }
+}
 #endif
 #if canImport(AppKit)
 public extension AppKit.Image {
