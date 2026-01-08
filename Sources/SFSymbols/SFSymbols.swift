@@ -27,18 +27,19 @@ public extension UIImage {
 #endif
 
 #if canImport(SwiftUI)
-@available(iOS 13.0, *)
+@available(iOS 13.0, macOS 11.0, *)
 public extension SwiftUI.Image {
     init(symbol: SFSymbols) {
         self.init(systemName: symbol.symbol)
     }
 }
-@available(iOS 16.0, *)
+@available(iOS 16.0, macOS 11.0, *)
 public extension SwiftUI.Label where Title == Text, Icon == Image {
     init(_ titleKey: LocalizedStringKey, symbol: SFSymbols) {
         self.init(titleKey, systemImage: symbol.symbol)
     }
-    
+
+    @available(iOS 16.0, macOS 13.0, *)
     init(_ titleResource: LocalizedStringResource, symbol: SFSymbols) {
         self.init(titleResource, systemImage: symbol.symbol)
     }
@@ -48,14 +49,6 @@ public extension SwiftUI.Label where Title == Text, Icon == Image {
     }
 }
 #endif
-#if canImport(AppKit)
-public extension AppKit.Image {
-    public convenience init(symbol: SFSymbols) {
-        self.init(systemName: symbol.symbol)
-    }
-}
-#endif
-
 public struct SFSymbols : Sendable{
     var symbol: String
 }
