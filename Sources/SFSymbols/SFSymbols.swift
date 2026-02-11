@@ -49,7 +49,7 @@ public extension SwiftUI.Label where Title == Text, Icon == Image {
     }
 }
 #endif
-public struct SFSymbols : Sendable{
+public struct SFSymbols: Sendable, Equatable {
     var symbol: String
 }
 
